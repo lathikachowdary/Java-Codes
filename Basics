@@ -1,1 +1,22 @@
 Let's Begin!!!!
+
+CODE - 1
+DESCRIPTION: Basic Scan and Print.
+
+package basics;
+import java.util.Scanner;
+
+public class printUser {
+
+	public static void main(String Args[]) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter User Name ");
+		String user = sc.next();
+		System.out.println("Hey, "+user+"!");
+	}
+}
+
+Output:
+Enter User Name 
+Lathika
+Hey, Lathika!
