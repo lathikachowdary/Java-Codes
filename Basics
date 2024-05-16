@@ -20,6 +20,7 @@ Enter User Name
 Lathika
 Hey, Lathika!
 
+--------------------------------------------------------------------------------------------------------------------------
 
 CODE - 2
 DESCRIPTION: Basic Addition.
@@ -42,6 +43,8 @@ Output:
 Enter input-1 and input-2
 1 2
 Sum: 3
+
+---------------------------------------------------------------------------------------------------------------------------
 
 CODE - 3
 DESCRIPTION: Basic math operations
@@ -69,3 +72,58 @@ Enter any 2 values
 11 2
 sum: 13 sub: 9 mul: 22 div 5.0 mod: 1.0
 
+---------------------------------------------------------------------------------------------------------------------------
+
+CODE - 4
+DESCRIPTION: Java User Input
+
+//Method	Description
+//nextBoolean()	Reads a boolean value from the user
+//nextByte()	Reads a byte value from the user
+//nextDouble()	Reads a double value from the user
+//nextFloat()	Reads a float value from the user
+//nextInt()	Reads a int value from the user
+//nextLine()	Reads a String value from the user
+//nextLong()	Reads a long value from the user
+//nextShort()	Reads a short value from the user
+
+package basics;
+import java.util.Scanner;
+
+public class userInput {
+
+	public static void main(String Args[]) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter your First Name");
+		String firstName = sc.nextLine();
+		System.out.println("Enter your Last Name");
+		String lastName = sc.next();
+		System.out.println("Enter your Age");
+		short age = sc.nextShort();
+		System.out.println("Enter your Mobile Number");
+		long mobile = sc.nextLong();
+		System.out.println("Enter your Gender(F/M/O)");
+		char gender = sc.next().charAt(0);
+		System.out.println("Account Created!!!!"
+		+"\n"+firstName+" "+lastName+"\n"+age+"\n"+mobile+"\n"+gender);
+	}
+}
+
+Output:
+Enter your First Name
+Lathika Chowdary
+Enter your Last Name
+Gutta
+Enter your Age
+22
+Enter your Mobile Number
+9666111222
+Enter your Gender(F/M/O)
+Female
+Account Created!!!!
+Lathika Chowdary Gutta
+22
+9666111222
+F
+
+----------------------------------------------------------------------------------------------------------------------------
