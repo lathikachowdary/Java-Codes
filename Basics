@@ -42,3 +42,30 @@ Output:
 Enter input-1 and input-2
 1 2
 Sum: 3
+
+CODE - 3
+DESCRIPTION: Basic math operations
+
+import java.util.Scanner;
+
+public class MathOperations {
+
+	public static void main(String Args[]) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter any 2 values");
+		int input1 =  sc.nextInt();
+		int input2 = sc.nextInt();
+		int sum = input1+input2;
+		int sub = input1-input2;
+		int mul = input1*input2;
+		float div = input1/input2;
+		float mod = input1%input2;
+		System.out.println("sum: "+sum+" sub: "+sub+" mul: "+mul+" div "+div+" mod: "+mod);
+	}
+}
+
+Output:
+Enter any 2 values
+11 2
+sum: 13 sub: 9 mul: 22 div 5.0 mod: 1.0
+
