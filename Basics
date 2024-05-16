@@ -3,7 +3,6 @@ Let's Begin!!!!
 CODE - 1
 DESCRIPTION: Basic Scan and Print.
 
-package basics;
 import java.util.Scanner;
 
 public class printUser {
@@ -20,3 +19,26 @@ Output:
 Enter User Name 
 Lathika
 Hey, Lathika!
+
+
+CODE - 2
+DESCRIPTION: Basic Addition.
+
+import java.util.Scanner;
+public class addition {
+	
+	public static void main(String Args[]) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter input-1 and input-2");
+		int input1 = sc.nextInt();
+		int input2 = sc.nextInt();
+		int sum = input1+input2;
+		System.out.println("Sum: "+sum);
+	}
+
+}
+
+Output:
+Enter input-1 and input-2
+1 2
+Sum: 3
